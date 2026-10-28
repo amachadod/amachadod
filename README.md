@@ -6,12 +6,12 @@ I studied Advertising and Public Relations at Universidad Complutense de Madrid 
 
 ### Projects
 
-**[Minuta](https://github.com/amachadod/minuta)** · [live demo](https://amachadod.github.io/minuta/)
-Turns every call into tasks for the right team. Granola call notes go in, Claude pulls out what was agreed using a plain-English playbook for each team, and the tasks land in Linear with owners, deadlines and the quote that proves them. Playbooks for sales, account management, marketing, customer success and internal teams.
+**[Minuta](https://github.com/amachadod/minuta)** · [live demo](https://amachadod.github.io/minuta/)<br>
+Turns every call into tasks for the right team. Granola call notes go in, Claude pulls out what was agreed using a plain-English playbook for each team, and the tasks land in Linear with owners, deadlines and the quote that proves them. Playbooks for sales, account management, marketing, customer success and internal teams.<br>
 `Claude API` `Linear API` `Granola` `Zapier` `Node.js`
 
-**[Plano](https://github.com/amachadod/plano)** · [live demo](https://amachadod.github.io/plano/)
-A paid media planner. Split a budget across Meta, Google Search, TikTok, LinkedIn and Pinterest, forecast impressions, clicks, CPA and ROAS, and check ad copy against each platform's character limits before launch.
+**[Plano](https://github.com/amachadod/plano)** · [live demo](https://amachadod.github.io/plano/)<br>
+A paid media planner. Split a budget across Meta, Google Search, TikTok, LinkedIn and Pinterest, forecast impressions, clicks, CPA and ROAS, and check ad copy against each platform's character limits before launch.<br>
 `Media planning` `Paid social` `Search` `JavaScript`
 
 ### What I work with
