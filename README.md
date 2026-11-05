@@ -6,6 +6,10 @@ I studied Advertising and Public Relations at Universidad Complutense de Madrid 
 
 ### Projects
 
+**[Signalpost](https://github.com/amachadod/signalpost)** · [live demo](https://amachadod.github.io/signalpost/)<br>
+Social media scheduling in plain words. Say which reel, carousel or photo goes to which network and when, and Claude writes a native post for each network in the brand's voice. Signalpost checks every post against that network's rules, and schedules through Upload-Post only after you approve the drafts in a pull request. Includes a content calendar.<br>
+`Claude API` `Upload-Post API` `Content calendar` `GitHub Actions` `Node.js`
+
 **[Minuta](https://github.com/amachadod/minuta)** · [live demo](https://amachadod.github.io/minuta/)<br>
 Turns every call into tasks for the right team. Granola call notes go in, Claude pulls out what was agreed using a plain-English playbook for each team, and the tasks land in Linear with owners, deadlines and the quote that proves them. Playbooks for sales, account management, marketing, customer success and internal teams.<br>
 `Claude API` `Linear API` `Granola API` `GitHub Actions` `Zapier` `Node.js`
@@ -26,7 +30,7 @@ A paid media budget forecaster for any market. Split a budget across Meta, Googl
 
 - **Paid media:** Meta Ads, Google Ads, LinkedIn Ads, TikTok Ads, Pinterest Ads
 - **Content and creative:** Canva, Adobe Premiere Pro, copywriting for social and ads
-- **Workflow and AI:** Claude, Granola, Gmail API, Linear, Obsidian, Zapier, GitHub Actions
+- **Workflow and AI:** Claude, Granola, Gmail API, Linear, Obsidian, Upload-Post, Zapier, GitHub Actions
 - **Languages:** Spanish (native), English (B2), Portuguese (intermediate)
 
 ### Get in touch
