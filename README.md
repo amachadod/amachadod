@@ -26,6 +26,10 @@ Your inbox, read before you are. Every morning Posta reads new email, sends you 
 A paid media budget forecaster for any market. Split a budget across Meta, Google Search, YouTube, TikTok, LinkedIn and Pinterest, forecast impressions, clicks, CPA and ROAS in 20 markets, and compare the same plan across countries.<br>
 `Media planning` `Paid social` `Search` `JavaScript`
 
+**[AdsDetective](https://github.com/amachadod/adsdetective)** · [live demo](https://amachadod.github.io/adsdetective/)<br>
+Find out which gaming and esports ads keep running on Meta. Pick a topic and a country, and AdsDetective reads Meta's public Ad Library and ranks advertisers by how long their ads stay live, a useful clue that an ad pays for itself. Also includes a research playbook for Claude that covers Meta, Google, TikTok and LinkedIn ad libraries. The demo uses sample data.<br>
+`Meta Ad Library API` `Claude` `Ad research` `Node.js`
+
 ### What I work with
 
 - **Paid media:** Meta Ads, Google Ads, LinkedIn Ads, TikTok Ads, Pinterest Ads
@@ -35,4 +39,4 @@ A paid media budget forecaster for any market. Split a budget across Meta, Googl
 
 ### Get in touch
 
-albertomachdom@gmail.com
+[albertomachdom@gmail.com](mailto:albertomachdom@gmail.com) · [LinkedIn](https://www.linkedin.com/in/alberto-machado-dom%C3%ADnguez-708290251/)
