@@ -1,38 +1,70 @@
 ## Hi, I'm Alberto Machado Domínguez
 
-Digital marketing and account management, based in Lisbon.
+Digital marketing and account management, based in Lisbon. Advertising and PR graduate (Universidad Complutense de Madrid), with experience in paid media, content and client accounts.
 
-I studied Advertising and Public Relations at Universidad Complutense de Madrid and have worked across agency and in-house teams on paid media, content and client accounts. I like the part of marketing that sits between a client conversation and the work getting done: planning budgets, writing the brief, making sure next steps actually happen. I build small tools to make that faster.
+I build small AI tools for the parts of marketing work that eat time: turning calls into tasks, scheduling social posts, planning budgets, finding answers in company documents. Each one has a live demo you can click in under a minute.
 
-### Projects
+### In 30 seconds
 
-**[AI Front Desk](https://github.com/amachadod/ai-front-desk)** · [live demo](https://amachadod.github.io/ai-front-desk/)<br>
-One front door for AI ideas: request, route, approve, measure. People submit an AI idea in plain words; rule-based triage asks for what's missing, scores value, effort, data sensitivity and risk, removes sensitive details, spots duplicates and routes the idea to the right tool. A person approves with a recorded reason, the team gets an adoption kit (prompt library, 40-minute training, one-page AI use policy), and a dashboard tracks adoption. It ties together the tools below. Simulated demo for a fictional company, with real rules and tests.<br>
-`AI adoption` `AI governance` `Claude API` `Node.js` `Accessibility`
+- **7 tools**, each with a live demo, open code and automated tests (110 in total).
+- **A person always approves.** None of them sends, posts or deletes anything on its own. They draft, you decide.
+- **They work together.** [AI Front Desk](https://github.com/amachadod/ai-front-desk) is the front door: it takes an idea, checks it, and routes it to the right tool.
+- **Demo data is fictional** and labelled as such. Connections to HubSpot and Upload-Post are written and documented, but not tested against live accounts yet.
 
-**[Signalpost](https://github.com/amachadod/signalpost)** · [live demo](https://amachadod.github.io/signalpost/)<br>
-Social media scheduling in plain words. Say which reel, carousel or photo goes to which network and when, and Claude writes a native post for each network in the brand's voice. Signalpost checks every post against that network's rules, and schedules through Upload-Post only after you approve the drafts in a pull request. Includes a content calendar.<br>
-`Claude API` `Upload-Post API` `Content calendar` `GitHub Actions` `Node.js`
+### The tools
 
-**[Minuta](https://github.com/amachadod/minuta)** · [live demo](https://amachadod.github.io/minuta/)<br>
-Turns every call into tasks for the right team. Granola call notes go in, Claude pulls out what was agreed using a plain-English playbook for each team, and the tasks land in Linear with owners, deadlines and the quote that proves them, or in a CRM (HubSpot-style) with a follow-up email draft that is never sent. Playbooks for sales, account management, marketing, customer success and internal teams.<br>
-`Claude API` `Linear API` `HubSpot API` `Granola API` `GitHub Actions` `Zapier` `Node.js`
+| Tool | What it does, in one line | Demo |
+|---|---|---|
+| **[AI Front Desk](https://github.com/amachadod/ai-front-desk)** | Request, route, approve, measure: a way for a company to adopt AI with rules, training and a dashboard | [open](https://amachadod.github.io/ai-front-desk/) |
+| **[Signalpost](https://github.com/amachadod/signalpost)** | Say what to post and when; Claude drafts a native post per network, you approve in a pull request, it schedules | [open](https://amachadod.github.io/signalpost/) |
+| **[Minuta](https://github.com/amachadod/minuta)** | Call notes become tasks (Linear) or CRM follow-ups (HubSpot-style) with owners and deadlines | [open](https://amachadod.github.io/minuta/) |
+| **[Threadline](https://github.com/amachadod/threadline)** | Documents become a linked second brain, or a company handbook that answers with sources | [open](https://amachadod.github.io/threadline/) |
+| **[Posta](https://github.com/amachadod/posta)** | Morning email briefing, tasks and reply drafts in your voice. Never sends | [open](https://amachadod.github.io/posta/) |
+| **[Plano](https://github.com/amachadod/plano)** | Paid media budget forecaster for 20 markets and 6 channels | [open](https://amachadod.github.io/plano/) |
+| **[AdsDetective](https://github.com/amachadod/adsdetective)** | Finds which ads keep running on Meta, a clue that they work | [open](https://amachadod.github.io/adsdetective/) |
 
-**[Threadline](https://github.com/amachadod/threadline)** · [live demo](https://amachadod.github.io/threadline/)<br>
-A second brain that grows from your documents. Claude reads briefs, call notes, emails or personal notes and turns them into linked Obsidian notes and a map it can follow, with every connection backed by a quote from its source. Works for business, personal and marketing knowledge, and has a company handbook mode for Notion exports that cites the page in every answer and flags out-of-date or conflicting pages.<br>
-`Claude API` `Knowledge graphs` `Obsidian` `GitHub Actions` `GitHub API` `Node.js`
+### How they fit together
 
-**[Posta](https://github.com/amachadod/posta)** · [live demo](https://amachadod.github.io/posta/)<br>
-Your inbox, read before you are. Every morning Posta reads new email, sends you a briefing of what needs you, turns real work into Linear tasks and drafts replies in Gmail in your voice. It never sends anything for you, and it treats every email as untrusted, so phishing and prompt-injection attempts get flagged, not acted on.<br>
-`Gmail API` `Claude API` `Linear API` `GitHub Actions` `OAuth 2.0` `Node.js`
+```
+  an idea ──► AI Front Desk ──► checks it, scores it, routes it
+                    │
+        ┌───────────┼────────────┬─────────────┐
+        ▼           ▼            ▼             ▼
+     Minuta       Posta      Threadline    Signalpost
+   calls→tasks  email→tasks  documents→    posts→
+                + drafts     answers       scheduled
 
-**[Plano](https://github.com/amachadod/plano)** · [live demo](https://amachadod.github.io/plano/)<br>
-A paid media budget forecaster for any market. Split a budget across Meta, Google Search, YouTube, TikTok, LinkedIn and Pinterest, forecast impressions, clicks, CPA and ROAS in 20 markets, and compare the same plan across countries.<br>
-`Media planning` `Paid social` `Search` `JavaScript`
+  Marketing loop: AdsDetective (research) → Plano (budget) → Signalpost (publish)
+```
 
-**[AdsDetective](https://github.com/amachadod/adsdetective)** · [live demo](https://amachadod.github.io/adsdetective/)<br>
-Find out which gaming and esports ads keep running on Meta. Pick a topic and a country, and AdsDetective reads Meta's public Ad Library and ranks advertisers by how long their ads stay live, a useful clue that an ad pays for itself. Also includes a research playbook for Claude that covers Meta, Google, TikTok and LinkedIn ad libraries. The demo uses sample data.<br>
-`Meta Ad Library API` `Claude` `Ad research` `Node.js`
+Example week at a fictional company: a customer call goes into Minuta and becomes CRM tasks, the follow-up email is drafted in Posta, the agreed terms land in Threadline so anyone can ask about them later, and Signalpost schedules the launch posts. Every step waits for a person.
+
+### Shared rules
+
+- **Human approval** before anything is sent, created or scheduled.
+- **Outside text is data, not instructions.** Emails, call notes and reviews cannot give orders to the AI (demos include prompt-injection examples).
+- **Low confidence is flagged** "Needs review", not guessed.
+- **Privacy:** sensitive details (IBANs, cards, keys, emails) are removed before the AI sees the text, and logs hold counts only.
+- **Zero dependencies:** Node.js 20+, no installs.
+
+<details>
+<summary><b>More detail on each tool</b></summary>
+
+**AI Front Desk.** People submit an AI idea in plain words; rule-based triage asks for what's missing, scores value, effort, data sensitivity and risk, spots duplicates and routes it to the right tool. A person approves with a recorded reason. Includes an adoption kit (prompt library, 40-minute training outline, one-page AI use policy) and a dashboard. `AI adoption` `AI governance` `Claude API`
+
+**Signalpost.** Checks every post against each network's rules (length, hashtags, media) and schedules through Upload-Post only after the drafts are approved in a pull request. Includes a content calendar. `Claude API` `Upload-Post API` `GitHub Actions`
+
+**Minuta.** Granola call notes in; Claude extracts what was agreed using a plain-English playbook per team (sales, account management, marketing, customer success, internal). Output goes to Linear or a CRM, each task with the quote that proves it. `Linear API` `HubSpot API` `Granola API` `Zapier`
+
+**Threadline.** Reads briefs, call notes, emails or notes and builds linked Obsidian notes, with every connection backed by a quote. Handbook mode works on Notion exports, cites the page in every answer and flags out-of-date or conflicting pages. `Knowledge graphs` `Obsidian` `GitHub API`
+
+**Posta.** Reads new email every morning, sends a briefing, turns real work into Linear tasks and drafts replies in Gmail. Treats every email as untrusted. `Gmail API` `Linear API` `OAuth 2.0`
+
+**Plano.** Splits a budget across Meta, Google Search, YouTube, TikTok, LinkedIn and Pinterest, forecasts impressions, clicks, CPA and ROAS, and compares the same plan across countries. `Media planning` `Paid social` `JavaScript`
+
+**AdsDetective.** Reads Meta's public Ad Library and ranks advertisers by how long their ads stay live. Also includes a research playbook for Meta, Google, TikTok and LinkedIn ad libraries. The demo uses sample data. `Meta Ad Library API` `Ad research`
+
+</details>
 
 ### What I work with
 
