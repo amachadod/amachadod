@@ -4,7 +4,7 @@ Digital marketing and account management, based in Lisbon. Advertising and PR gr
 
 I build small AI tools for the parts of marketing work that eat time: turning calls into tasks, scheduling social posts, planning budgets, finding answers in company documents. Each one has a live demo you can click in under a minute.
 
-### In 30 seconds
+### At a glance
 
 - **7 tools**, each with a live demo, open code and automated tests (110 in total).
 - **A person always approves.** None of them sends, posts or deletes anything on its own. They draft, you decide.
@@ -65,14 +65,6 @@ Example week at a fictional company: a customer call goes into Minuta and become
 **AdsDetective.** Reads Meta's public Ad Library and ranks advertisers by how long their ads stay live. Also includes a research playbook for Meta, Google, TikTok and LinkedIn ad libraries. The demo uses sample data. `Meta Ad Library API` `Ad research`
 
 </details>
-
-### What I work with
-
-- **Paid media:** Meta Ads, Google Ads, LinkedIn Ads, TikTok Ads, Pinterest Ads
-- **Content and creative:** Canva, Adobe Premiere Pro, copywriting for social and ads
-- **Workflow and AI:** Claude, Granola, Gmail API, Linear, Obsidian, Upload-Post, Zapier, GitHub Actions
-- **AI adoption:** request triage and routing, prompt libraries, training outlines, AI use policies
-- **Languages:** Spanish (native), English (B2), Portuguese (intermediate)
 
 ### Get in touch
 
